@@ -7,5 +7,5 @@ This will be replaced in forthcoming versions of each Implementation guide with 
 ## File Structure
 
 {% for file in site.static_files %}
-  {{ file.path }}
+  <a href="{{ file.path }}">{{ file.path }}</a>
 {% endfor %}
